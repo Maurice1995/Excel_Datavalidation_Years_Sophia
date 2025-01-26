@@ -41,6 +41,7 @@ python calendar_generator.py
   - Allows "u" and "x" entries
   - Maximum 8 entries per row
   - Error message: "Für diesen Tag ist das Kontingent bereits aufgebraucht. Kein Eintrag mehr möglich."
+  - Formula: =ZÄHLENWENN($D3:$AG3;"u")+ZÄHLENWENN($D3:$AG3;"x")<=8
 
 ## Example Output
 
